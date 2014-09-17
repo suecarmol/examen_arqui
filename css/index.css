@@ -1,0 +1,123 @@
+body
+{
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #B7B7B7;
+}
+
+.clear { clear: both; }
+
+.header_container
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+	height: 75px;
+	background-color: #006666;
+}
+
+.header_container_text
+{
+	width: 350px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.contents_wrapper
+{
+	width: 1200px;
+	height: 550px;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contents_instruction
+{
+	width: 280px;
+	height: 40px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+.options_container
+{
+	width: 1200px;
+	height: 300px;
+	margin-top: 75px;
+}
+
+.tour_option
+{
+	border: 2px solid black;
+	width: 250px;
+	height: 280px;
+	background-color: #9DBCBC;
+	float: left;
+	margin: 10px 0px 0px 35px;
+}
+
+.tour_option:hover
+{
+	background-color: #FFEEBB;
+	cursor: pointer;
+}
+
+.car_option
+{
+	border: 2px solid black;
+	width: 250px;
+	height: 280px;
+	background-color: #9DBCBC;
+	float: left;
+	margin: 10px 0px 0px 35px;
+}
+
+.car_option:hover
+{
+	background-color: #FFEEBB;
+	cursor: pointer;
+}
+
+.hotel_option
+{
+	border: 2px solid black;
+	width: 250px;
+	height: 280px;
+	background-color: #9DBCBC;
+	float: left;
+	margin: 10px 0px 0px 35px;
+}
+
+.hotel_option:hover
+{
+	background-color: #FFEEBB;
+	cursor: pointer;
+}
+
+.airplane_option
+{
+	border: 2px solid black;
+	width: 250px;
+	height: 280px;
+	background-color: #9DBCBC;
+	float: left;
+	margin: 10px 0px 0px 35px;
+}
+
+.airplane_option:hover
+{
+	background-color: #FFEEBB;
+	cursor: pointer;
+}
+
+
