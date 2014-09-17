@@ -40,7 +40,7 @@ body
 
 .contents_instruction
 {
-	width: 280px;
+	width: 350px;
 	height: 40px;
 	overflow: hidden;
 	margin-left: auto;
@@ -89,6 +89,13 @@ body
 	padding: 10px 0px 0px 15px;
 }
 
+.tour_image
+{
+	width: 256px;
+	height: 100px;
+	background-image: url('../images/tour.png');
+}
+
 .car_option
 {
 	border: 2px solid black;
@@ -103,6 +110,22 @@ body
 {
 	background-color: #FFEEBB;
 	cursor: pointer;
+}
+
+.car_option_title
+{
+	color: #6B6B6B;
+	font-weight: 500;
+	font-size: 25px;
+	padding: 10px 0px 0px 65px;
+}
+
+.car_explanation
+{
+	color: #6B6B6B;
+	font-size: 18px;
+	line-height: 25px;
+	padding: 10px 0px 0px 15px;
 }
 
 .hotel_option
@@ -121,6 +144,22 @@ body
 	cursor: pointer;
 }
 
+.hotel_option_title
+{
+	color: #6B6B6B;
+	font-weight: 500;
+	font-size: 25px;
+	padding: 10px 0px 0px 90px;
+}
+
+.hotel_explanation
+{
+	color: #6B6B6B;
+	font-size: 18px;
+	line-height: 25px;
+	padding: 10px 0px 0px 15px;
+}
+
 .airplane_option
 {
 	border: 2px solid black;
@@ -137,5 +176,20 @@ body
 	cursor: pointer;
 }
 
+.airplane_option_title
+{
+	color: #6B6B6B;
+	font-weight: 500;
+	font-size: 25px;
+	padding: 10px 0px 0px 65px;
+}
+
+.airplane_explanation
+{
+	color: #6B6B6B;
+	font-size: 18px;
+	line-height: 25px;
+	padding: 10px 0px 0px 15px;
+}
 
 
