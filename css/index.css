@@ -47,6 +47,7 @@ body
 	margin-right: auto;
 	padding-top: 20px;
 	font-size: 25px;
+	color: #6B6B6B;
 }
 
 .options_container
@@ -70,6 +71,22 @@ body
 {
 	background-color: #FFEEBB;
 	cursor: pointer;
+}
+
+.tour_option_title
+{
+	color: #6B6B6B;
+	font-weight: 500;
+	font-size: 25px;
+	padding: 10px 0px 0px 95px;
+}
+
+.tour_explanation
+{
+	color: #6B6B6B;
+	font-size: 18px;
+	line-height: 25px;
+	padding: 10px 0px 0px 15px;
 }
 
 .car_option
@@ -119,5 +136,6 @@ body
 	background-color: #FFEEBB;
 	cursor: pointer;
 }
+
 
 
