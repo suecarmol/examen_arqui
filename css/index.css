@@ -91,9 +91,9 @@ body
 
 .tour_image
 {
-	width: 256px;
-	height: 100px;
-	background-image: url('../images/tour.png');
+	width: 250px;
+	height: 130px;
+	background-image: url('../images/family-tours.jpg');
 }
 
 .car_option
@@ -104,6 +104,11 @@ body
 	background-color: #9DBCBC;
 	float: left;
 	margin: 10px 0px 0px 35px;
+}
+
+.tour_option a
+{
+	text-decoration: none;
 }
 
 .car_option:hover
@@ -126,6 +131,13 @@ body
 	font-size: 18px;
 	line-height: 25px;
 	padding: 10px 0px 0px 15px;
+}
+
+.car_image
+{
+	width: 250px;
+	height: 130px;
+	background-image: url('../images/car-rental.jpg');
 }
 
 .hotel_option
@@ -160,6 +172,13 @@ body
 	padding: 10px 0px 0px 15px;
 }
 
+.hotel_image
+{
+	width: 250px;
+	height: 130px;
+	background-image: url('../images/hotels.jpg');
+}
+
 .airplane_option
 {
 	border: 2px solid black;
@@ -192,4 +211,10 @@ body
 	padding: 10px 0px 0px 15px;
 }
 
+.airplane_image
+{
+	width: 250px;
+	height: 130px;
+	background-image: url('../images/airlines.jpg');
+}
 
