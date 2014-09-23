@@ -1,0 +1,108 @@
+body
+{
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #B7B7B7;
+}
+
+.clear { clear: both; }
+
+.header_container
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+	height: 75px;
+	background-color: #006666;
+}
+
+.header_container_text
+{
+	width: 300px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.contents_wrapper
+{
+	width: 1200px;
+	height: 550px;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.form_wrapper
+{
+	width: 400px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+}
+
+.form_header
+{
+	width: auto;
+	height: 40px;
+	font-size: 24px;
+	background-color: #FFEEBB;
+
+}
+
+.label_style
+{
+	width: 155px;
+	height: 25px;
+	overflow: hidden;
+	float: left;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.tour_information_container
+{
+	width: 1100px;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tour_information_long
+{
+	width: 325px;
+	height: 305px;
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-left: 5px;
+	color: #6B6B6B;
+	float: left;
+	margin-top: 10px;
+	overflow: scroll;
+}
+
+.tour_information_map
+{
+	width: 325px;
+	height: 325px;
+	background-image: url("../images/map.jpg");
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.tour_information_picture
+{
+	width: 325px;
+	height: 325px;
+	background-image: url("../images/tour_single.jpg");
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
