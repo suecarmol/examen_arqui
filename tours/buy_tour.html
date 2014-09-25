@@ -11,14 +11,14 @@
 	<body>
 
 		<div id="header_container" class="header_container">
-			<div id="header_container_text" class="header_container_text">Compra de Tour</div>
+			<a href="../index.html">Home</a> | <a href="tours.html">Agencia de tours</a> | <a href="single_tour.html">Tour</a> | Compra de Tour
 		</div>
 
 		<div id="contents_wrapper" class="contents_wrapper">
 
 			<div id="form_wrapper" class="form_wrapper">
 
-				<div id="form_header" class="form_header">Inserte sus datos personales</div>
+				<div id="form_header" class="form_header" style="text-align: center;">Inserte sus datos personales</div>
 
 				<form>
 					<div class="label_style">Nombre</div> <input type="text" name="firstname"> 
@@ -35,12 +35,20 @@
 					<div class="clear"> </div>
 					<div class="label_style">C&oacute;digo de Seguridad</div> <input type="password" name="card_security_number" maxlength="3">
 					<div class="clear"> </div>
-					<div class="label_style">C&oacute;digo de Reserva</div> <input type="text" name="reservation_number" maxlength="10">
-					<div class="clear"> </div>
-					<input type="button" name="buy_tour" value="Comprar">
+					<input type="button" name="buy_tour" value="Comprar" class="btn btn-default">
 				</form>
 
 			</div>	
+			
+			<div class="special">
+				<div id="form_header" class="form_header" style="text-align: center;">O su c&oacute;digo de reservaci&oacute;n</div>
+
+				<form>
+					<div class="label_style">C&oacute;digo de Reserva</div> <input type="text" name="reservation_number" maxlength="10">
+					<div class="clear"> </div>
+					<input type="button" name="buy_tour2" value="Confirmar Comprar" class="btn btn-default">
+				</form>
+				</div>
 			
 			<div id="tour_information_container" class="tour_information_container">
 

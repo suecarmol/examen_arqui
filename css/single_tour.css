@@ -6,6 +6,20 @@ body
 	background-color: #B7B7B7;
 }
 
+a:link,
+a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	target-new: none;
+}
+a:hover 
+{
+	color: #B7B7B7;
+	text-decoration: none;
+	target-new: none;
+}
+
 .clear { clear: both; }
 
 .header_container
@@ -15,18 +29,11 @@ body
 	width: 1200px;
 	height: 75px;
 	background-color: #006666;
-}
-
-.header_container_text
-{
-	width: 100px;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
 	padding-top: 10px;
 	color: #FFFFFF;
 	font-size: 40px;
 	font-weight: 500;
+	text-align: center;
 }
 
 .contents_wrapper
